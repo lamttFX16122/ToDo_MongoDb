@@ -1,0 +1,33 @@
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGIN_RESET = 'LOGIN_RESET';
+
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+export const REGISTER_FAIL = 'REGISTER_FAIL';
+
+export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS';
+export const LOGOUT_FAIL = 'LOGOUT_FAIL';
+
+export const TOGGLE_FORM = 'TOGGLE_FORM';
+export const OPEN_FORM = 'OPEN_FORM';
+export const CLOSE_FOM = 'CLOSE_FORM';
+export const SET_VALUE_FORM = 'SET_VALUE_FORM';
+
+export const GET_ALL_WORKS = 'GET_ALL_WORKS';
+export const ADD_WORK_SUCCESS = 'ADD_WORK_SUCCESS';
+export const ADD_WORK_FAIL = 'ADD_WORK_FAIL';
+export const EDIT_WORK_SUCCESS = 'EDIT_WORK_SUCCESS';
+export const EDIT_WORK_FAIL = 'EDIT_WORK_FAIL';
+export const DELETE_WORK_SUCCESS = 'DELETE_WORK_SUCCESS';
+export const DELETE_WORK_FAIL = 'DELETE_WORK_FAIL';
+
+export const ON_FILTER_NAME = 'ON_FILTER_NAME';
+export const ON_FILTER_STATUS = 'ON_FILTER_STATUS';
+
+export const SORT_NAME_AZ = 'SORT_NAME_AZ';
+export const SORT_NAME_ZA = 'SORT_NAME_ZA';
+export const SORT_STATUS_TRUE = 'SORT_STATUS_TRUE';
+export const SORT_STATUS_FALSE = 'SORT_STATUS_FALSE';
+
+export const ON_SEARCH = 'ON_SEARCH';
+export const END_SEARCH = 'END_SEARCH';
