@@ -1,0 +1,20 @@
+QUẢN LÝ CÔNG VIỆC – TODO
+Mô tả
+Project Quản lý công việc (TODO) được phát triển dựa trên ý tưởng lập kế hoạch làm việc mỗi ngày và kiểm soát thời gian hoàn thành công việc theo kế hoạch.
+Chức năng chính
++ CRUD người dùng.
++ CRUD công việc.
+Công nghệ sử dụng
+-	Front-end:
++ ReactJS, Bootstrap 5
++ Giao diện được xây dựng đơn giản bằng ReactJS và Bootstrap 5, cung cấp giao diện phù hợp với nhiều thiết bị (responsive).
++ Sử dụng React-redux để lưu trữ trạng thái phù hợp tăng tính tương tác người dụng.
++ Mã nguồn được lưu tại Github: https://github.com/lamttFX16122/ToDo_MongoDb/tree/main/webApp/todo
+-	Back-end: 
++ Xây dựng dựa trên Node JS.
++ Áp dụng theo tiêu chuẩn Restful API dựng server để cung cấp các API cho Front-end (ReactJS) sử dụng.
++ Sử dụng Mongose hỗ trợ thao tác và kết nối với database.
++ Authentication sử dụng token (Json web token - JWT) để xác thực.
++ Mã nguồn được lưu tại Github: https://github.com/lamttFX16122/ToDo_MongoDb/tree/main/server 
+-	Database
++ Database thiết kế dựa trên MongoDB. 
